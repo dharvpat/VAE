@@ -42,9 +42,9 @@ loss = reconstruction_loss + KL_divergence
 
 ## Implementation Details
 
-### BasicVAE
+### ImprovedVAE
 
-The `BasicVAE` class implements a simple fully-connected VAE:
+The `ImprovedVAE` class implements a simple fully-connected VAE:
 
 - Encoder: Two fully-connected layers
 - Decoder: Two fully-connected layers
